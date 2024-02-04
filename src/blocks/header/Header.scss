@@ -1,0 +1,21 @@
+.header{
+    border: 1px solid;
+    .content{
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .photo{
+            height: 300px;
+            width: 55%;
+            object-fit: cover;
+        }
+    }
+    .timer{
+        height: 40%;
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
