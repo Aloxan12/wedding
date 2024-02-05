@@ -20,7 +20,7 @@
             max-width: 45%;
         }
         .photo{
-            height: 300px;
+            min-height: 300px;
             width: 55%;
             object-fit: cover;
         }
@@ -30,6 +30,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid;
+        max-width: 600px;
+        min-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+        .item{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .value{
+                font-size: 28px;
+            }
+        }
     }
 }
