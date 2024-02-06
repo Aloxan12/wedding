@@ -11,7 +11,7 @@ body, #root{
   height: 100%;
 
   .page{
-    height: 80vh;
+    min-height: 40vh;
     max-width: 600px;
     min-width: 340px;
     width: 100%;
@@ -35,4 +35,10 @@ body, #root{
     font-size: 20px;
     font-weight: 600;
   }
+}
+
+.app-title{
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
 }

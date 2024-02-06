@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    min-height: 40vh;
     .title{
         width: 100%;
         display: flex;
@@ -25,26 +26,6 @@
             width: calc(55% - 12px);
             object-fit: cover;
             padding-right: 12px;
-        }
-    }
-    .timer{
-        height: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 600px;
-        min-width: 340px;
-        width: 100%;
-        margin: 0 auto;
-        .item{
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .value{
-                font-size: 28px;
-            }
         }
     }
 }
