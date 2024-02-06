@@ -1,12 +1,13 @@
 import {useEffect, useState} from "react";
 import './Timer.scss'
 
-const targetDate = new Date('2024-07-26T00:00:00');
+const targetDate:Date = new Date('2024-07-26T00:00:00');
 
 export const Timer = ()=>{
     const calculateTimeLeft = () => {
         const now = new Date().getTime();
-        const difference = targetDate - now;
+        const targetTime = targetDate.getTime();
+        const difference = targetTime - now;
 
         if (difference <= 0) {
             return {
