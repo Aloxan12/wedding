@@ -1,0 +1,28 @@
+.page.schedule{
+    margin-top: 40px;
+    .schedule-title{
+        font-size: 24px;
+        margin: 0 24px;
+    }
+    .schedule-list{
+        margin: 20px 24px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .schedule-item{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+            .schedule-title-block{
+                display: flex;
+                gap: 28px;
+                .time, .title{
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
