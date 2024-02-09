@@ -30,7 +30,7 @@ body, #root{
 }
 
 .title-block{
-  width: 100%;
+  width: calc(100% - 24px);
   display: flex;
   flex-direction: column;
   gap: 8px;
