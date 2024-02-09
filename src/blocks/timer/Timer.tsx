@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import './Timer.scss'
 
-const targetDate:Date = new Date('2024-07-26T00:00:00');
+const targetDate:Date = new Date('2024-07-26T15:30:00');
 
 export const Timer = ()=>{
     const calculateTimeLeft = () => {
