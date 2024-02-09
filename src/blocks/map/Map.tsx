@@ -7,7 +7,9 @@ export const MapBlock = () => {
         <div className='page map'>
             <div className='title-block'>
                 <span className='title'>Локация</span>
-                <span className='text'>усадьба форест</span>
+                <span className='text'><span className='extra'>Мы решили провести свадебный день в усадьбе Forest!</span>
+Минский р-н, агр.гор Новый
+Двор, ул. Лесная д.1</span>
             </div>
             <YMaps query={{
                 lang: 'ru_RU'

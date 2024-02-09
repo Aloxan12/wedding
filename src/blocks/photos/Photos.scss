@@ -1,0 +1,13 @@
+.page.photos-block{
+    margin-top: 60px;
+    min-height: 10vh;
+    .photo-title{
+        margin: 0 24px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .photo-description{
+        margin: 20px 24px;
+        font-size: 18px;
+    }
+}

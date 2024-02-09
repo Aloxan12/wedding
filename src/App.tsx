@@ -5,6 +5,7 @@ import {Gifts} from "./blocks/gifts/Gifts";
 import {Timer} from "./blocks/timer/Timer";
 import {Descriptions} from "./blocks/descriptions/Descriptions";
 import {Schedule} from "./blocks/schedule/Schedule";
+import {Photos} from "./blocks/photos/Photos";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Timer />
             <Gifts />
             <Schedule />
+            <Photos />
             <MapBlock/>
         </div>
     )
