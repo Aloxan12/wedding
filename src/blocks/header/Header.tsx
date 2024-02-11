@@ -6,8 +6,8 @@ export const Header = () => {
     return (
         <header className='page header'>
             <div className='content'>
-                <img src={TextPhoto} className='text' alt='' />
-                <img src={HeaderPhoto} className='photo'  alt=''/>
+                <img src={TextPhoto} className='text' alt='text-photo' />
+                <img src={HeaderPhoto} className='photo'  alt='header-photo'/>
             </div>
         </header>
     );
