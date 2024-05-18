@@ -9,6 +9,17 @@ body, #root{
   width: 100%;
 }
 
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+body::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
 .app{
   min-width: 360px;
   width: 100%;
