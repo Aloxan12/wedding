@@ -14,7 +14,7 @@ function App() {
             <Header/>
             <Descriptions />
             <h3 className='app-title'> Ждем вас! <br/>
-                Ваши жених и невеста!</h3>
+                26.07.2024</h3>
             <Timer />
             <Gifts />
             <Schedule />
