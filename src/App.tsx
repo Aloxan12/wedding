@@ -6,7 +6,6 @@ import {Timer} from "./blocks/timer/Timer";
 import {Descriptions} from "./blocks/descriptions/Descriptions";
 import {Schedule} from "./blocks/schedule/Schedule";
 import {Photos} from "./blocks/photos/Photos";
-import {DressCode} from "./blocks/dresscode/Dresscode";
 
 function App() {
 
@@ -18,7 +17,7 @@ function App() {
                 26.07.2024</h3>
             <Timer />
             <Gifts />
-            <DressCode />
+            {/*<DressCode />*/}
             <Schedule />
             <Photos />
             <MapBlock/>
